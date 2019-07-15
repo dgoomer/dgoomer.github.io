@@ -22,3 +22,9 @@ function backgroundChange() {
 
   // document.body.style.backgroundColor = "LAVENDER";
 }
+function zoomTime () {
+  map.setCenter({lat: 37.432358, lng: -122.096072});
+
+  new google.maps.Marker({position: {lat: 37.432358, lng: -122.096072}, map: map}); 
+
+}
